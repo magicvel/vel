@@ -160,11 +160,11 @@ const v38_2 = document.querySelector('#v38_2')
 // first question
 v1_1.addEventListener('click', function() {
   q1.classList.add('none');
-  q2.classList.remove('none')
+  back_card.classList.remove('none')
 })
 v1_2.addEventListener('click', function() {
   q1.classList.add('none');
-  q1_1.classList.remove('none')
+  front_card.classList.remove('none')
 })
 
 
